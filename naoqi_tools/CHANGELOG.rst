@@ -2,6 +2,9 @@
 Changelog for package naoqi_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.4 (2015-01-16)
+------------------
+
 0.4.3 (2014-12-14)
 ------------------
 * naoqui_tools not depending on robot descriptions
