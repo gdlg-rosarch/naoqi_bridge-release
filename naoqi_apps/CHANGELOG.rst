@@ -2,6 +2,12 @@
 Changelog for package naoqi_apps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.6 (2015-02-27)
+------------------
+* update wiki ros links
+* update repo links in package.xml
+* Contributors: Mikael Arguedas
+
 0.4.5 (2015-02-11)
 ------------------
 * add naoqi_apps
