@@ -1,0 +1,53 @@
+ros-hydro-naoqi-msgs (0.4.6-1quantal) quantal; urgency=high
+
+  * update repo links in package.xml
+  * Contributors: Mikael Arguedas
+
+ -- Severin Lemaignan <severin.lemaignan@epfl.ch>  Thu, 26 Feb 2015 23:00:00 -0000
+
+ros-hydro-naoqi-msgs (0.4.5-1quantal) quantal; urgency=high
+
+
+
+ -- Severin Lemaignan <severin.lemaignan@epfl.ch>  Tue, 10 Feb 2015 23:00:00 -0000
+
+ros-hydro-naoqi-msgs (0.4.4-1quantal) quantal; urgency=high
+
+
+
+ -- Severin Lemaignan <severin.lemaignan@epfl.ch>  Thu, 15 Jan 2015 23:00:00 -0000
+
+ros-hydro-naoqi-msgs (0.4.3-1quantal) quantal; urgency=high
+
+  * get the packages to actually conflict with the old versions (nao*)
+    The replace tag does not provide a way to uninstall the packages.
+    Its use case is different.
+  * Contributors: Vincent Rabaud
+
+ -- Severin Lemaignan <severin.lemaignan@epfl.ch>  Sat, 13 Dec 2014 23:00:00 -0000
+
+ros-hydro-naoqi-msgs (0.4.2-1quantal) quantal; urgency=high
+
+  * update changelogs
+  * Contributors: Vincent Rabaud
+
+ -- Severin Lemaignan <severin.lemaignan@epfl.ch>  Tue, 25 Nov 2014 23:00:00 -0000
+
+ros-hydro-naoqi-msgs (0.4.1-1quantal) quantal; urgency=high
+
+  * fixing imports on microphone sensor
+  * fixing imports on microphone sensor
+  * Contributors: Karsten Knese
+
+ -- Severin Lemaignan <severin.lemaignan@epfl.ch>  Wed, 12 Nov 2014 23:00:00 -0000
+
+ros-hydro-naoqi-msgs (0.4.0-1quantal) quantal; urgency=high
+
+  * introduce replace tag in package.xml
+  * naoqi_msgs transfer
+  * renamed subfolders for naoqi_*
+  * Contributors: Karsten Knese
+
+ -- Severin Lemaignan <severin.lemaignan@epfl.ch>  Wed, 05 Nov 2014 23:00:00 -0000
+
+
