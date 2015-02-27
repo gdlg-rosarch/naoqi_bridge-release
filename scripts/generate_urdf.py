@@ -132,10 +132,21 @@ def REP120_compatibility():
 
     elif NAME=="pepper":
         MESH_VERSION = VERSION
-       # add base_footprint frame
+        # add base_footprint frame
         robot.add_link(ur.Link('base_footprint'))
 
         robot.add_joint(ur.Joint('base_footprint_joint', 'Tibia','base_footprint', 'fixed', None, ur.Pose((OFFSETS_DICO['BaseFootprintOffsetX'],OFFSETS_DICO['BaseFootprintOffsetY'],OFFSETS_DICO['BaseFootprintOffsetZ']),(OFFSETS_DICO['BaseFootprintRotX'],OFFSETS_DICO['BaseFootprintRotY'],OFFSETS_DICO['BaseFootprintRotZ']))))
+
+    # add an optical frame for each robot
+    camera_frames = [ c for c in robot.links.keys() if 'camera' in c.lower() ]
+    for camera_frame in camera_frames:
+        camera_optical_frame = camera_frame[:-6] + '_optical_frame'
+        robot.add_link(ur.Link(camera_optical_frame))
+        robot.add_joint(ur.Joint('%s_joint' % camera_optical_frame, camera_frame, camera_optical_frame, 'fixed', None,
+                                     ur.Pose((0,0,0),(-math.pi/2.0,0,-math.pi/2.0))))
+
+    # add dummy physics for gazebo simulation
+    add_dummy_inertia(['Finger','Thumb','gripper'])
 
 def add_transmission_tags():
     global robot
@@ -163,6 +174,13 @@ def add_gazebo_tags():
     """
     return
 
+def add_dummy_inertia(list):
+    global robot
+    for string in list:
+        for link in robot.links:
+            if robot.links[link].name.find(string) != -1:
+                robot.links[link].inertial=ur.Inertial(1.1e-9,0.0,0.0,1.1e-9,
+                                                       0.0,1.1e-9,2e-06)
 
 ##################
 ##### Meshes #####
