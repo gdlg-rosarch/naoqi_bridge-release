@@ -1,0 +1,13 @@
+Source: ros-indigo-naoqi-driver
+Section: misc
+Priority: extra
+Maintainer: Severin Lemaignan <severin.lemaignan@epfl.ch>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-indigo-catkin, ros-indigo-diagnostic-aggregator, ros-indigo-diagnostic-msgs, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-naoqi-msgs, ros-indigo-nav-msgs, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Conflicts: ros-indigo-nao-driver
+Homepage: http://ros.org/wiki/naoqi_driver
+Standards-Version: 3.9.2
+
+Package: ros-indigo-naoqi-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-diagnostic-aggregator, ros-indigo-diagnostic-msgs, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-humanoid-nav-msgs, ros-indigo-naoqi-msgs, ros-indigo-nav-msgs, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-roslaunch, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-std-srvs
+Description: Driver package for the Naoqi robot, providing access to walking commands, joint angles, and sensor data (odometry, IMU, ...). The most-current version is compatible with the Nao API version 1.12 or newer, connecting to a real or simulated Nao by wrapping Aldebaran Robotics' NaoQI API in Python. This requires the &quot;lib&quot; directory of the Aldebaran Python SDK to be in your PYTHONPATH environment variable. Note that cameras drivers are provided in a separate package (naoqi_sensors).
