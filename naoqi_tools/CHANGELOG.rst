@@ -2,6 +2,9 @@
 Changelog for package naoqi_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.7 (2015-03-30)
+------------------
+
 0.4.6 (2015-02-27)
 ------------------
 * Update README_run_blender_script.py.rst
