@@ -1,0 +1,12 @@
+Source: ros-indigo-naoqi-bridge
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/nao
+Standards-Version: 3.9.2
+
+Package: ros-indigo-naoqi-bridge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-naoqi-driver, ros-indigo-naoqi-msgs, ros-indigo-naoqi-sensors
+Description: Meta package to interface ROS with Aldebaran's NAOqi.
