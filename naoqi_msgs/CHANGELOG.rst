@@ -2,6 +2,9 @@
 Changelog for package naoqi_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.7 (2015-03-30)
+------------------
+
 0.4.6 (2015-02-27)
 ------------------
 * update repo links in package.xml
