@@ -1,0 +1,13 @@
+Source: ros-hydro-naoqi-msgs
+Section: misc
+Priority: extra
+Maintainer: Severin Lemaignan <severin.lemaignan@epfl.ch>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib-msgs, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-nav-msgs, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-trajectory-msgs
+Conflicts: ros-hydro-nao-msgs
+Homepage: http://ros.org/wiki/naoqi_msgs
+Standards-Version: 3.9.2
+
+Package: ros-hydro-naoqi-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib-msgs, ros-hydro-geometry-msgs, ros-hydro-message-runtime, ros-hydro-nav-msgs, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-trajectory-msgs
+Description: Message and service declarations for the Nao humanoid
