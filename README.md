@@ -1,3 +1,30 @@
+## naoqi_bridge (jade) - 0.4.7-0
+
+The packages in the `naoqi_bridge` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade naoqi_bridge` on `Fri, 01 May 2015 09:34:48 -0000`
+
+These packages were released:
+- `naoqi_apps`
+- `naoqi_bridge`
+- `naoqi_driver`
+- `naoqi_msgs`
+- `naoqi_sensors`
+- `naoqi_tools`
+
+Version of package(s) in repository `naoqi_bridge`:
+- upstream repository: https://github.com/ros-naoqi/naoqi_bridge.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.7-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## naoqi_bridge (indigo) - 0.4.7-0
 
 The packages in the `naoqi_bridge` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo naoqi_bridge` on `Mon, 30 Mar 2015 15:18:24 -0000`
