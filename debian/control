@@ -1,0 +1,12 @@
+Source: ros-jade-naoqi-driver-py
+Section: misc
+Priority: extra
+Maintainer: Severin Lemaignan <severin.lemaignan@epfl.ch>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-jade-catkin, ros-jade-diagnostic-aggregator, ros-jade-diagnostic-msgs, ros-jade-dynamic-reconfigure, ros-jade-geometry-msgs, ros-jade-naoqi-bridge-msgs, ros-jade-nav-msgs, ros-jade-pluginlib, ros-jade-sensor-msgs, ros-jade-tf
+Homepage: http://ros.org/wiki/naoqi_driver
+Standards-Version: 3.9.2
+
+Package: ros-jade-naoqi-driver-py
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-actionlib, ros-jade-diagnostic-aggregator, ros-jade-diagnostic-msgs, ros-jade-dynamic-reconfigure, ros-jade-geometry-msgs, ros-jade-humanoid-nav-msgs, ros-jade-naoqi-bridge-msgs, ros-jade-nav-msgs, ros-jade-pluginlib, ros-jade-roslaunch, ros-jade-rospy, ros-jade-sensor-msgs, ros-jade-std-msgs, ros-jade-std-srvs
+Description: Python implementation of the driver package for the Naoqi robot, providing access to walking commands, joint angles, and sensor data (odometry, IMU, ...). The most-current version is compatible with the Nao API version 1.12 or newer, connecting to a real or simulated Nao by wrapping Aldebaran Robotics' NaoQI API in Python. This requires the &quot;lib&quot; directory of the Aldebaran Python SDK to be in your PYTHONPATH environment variable. Note that cameras drivers are provided in a separate package (naoqi_sensors_py).
