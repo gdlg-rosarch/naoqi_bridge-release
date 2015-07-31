@@ -2,6 +2,15 @@
 Changelog for package naoqi_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.1 (2015-07-31)
+------------------
+* generate changelog
+* generate changelog
+* Contributors: Karsten Knese
+
+* generate changelog
+* Contributors: Karsten Knese
+
 0.5.0 (2015-07-30)
 ------------------
 * make sure we add the cap for Romeo
