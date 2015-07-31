@@ -2,6 +2,20 @@
 Changelog for package naoqi_apps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.1 (2015-07-31)
+------------------
+* generate changelog
+* generate changelog
+* cleanup meta package.xml
+* Contributors: Karsten Knese
+
+* generate changelog
+* cleanup meta package.xml
+* Contributors: Karsten Knese
+
+* cleanup meta package.xml
+* Contributors: Karsten Knese
+
 0.5.0 (2015-07-30)
 ------------------
 
