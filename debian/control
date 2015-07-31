@@ -1,0 +1,13 @@
+Source: ros-indigo-naoqi-pose
+Section: misc
+Priority: extra
+Maintainer: Séverin Lemaignan <severin.lemaignan@epfl.ch>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/naoqi_pose
+Standards-Version: 3.9.2
+
+Package: ros-indigo-naoqi-pose
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-naoqi-bridge-msgs, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-trajectory-msgs
+Conflicts: ros-indigo-nao-pose
+Description: This package contains nodes for managing Nao's poses.
