@@ -2,6 +2,13 @@
 Changelog for package naoqi_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.2 (2015-08-11)
+------------------
+* naoqi_sensors_py no longer contains nodelt plugins
+* OCTOMAP: Use binaryMsg for compliance with other octree types.
+* SONAR: Fix Sonar FOV.
+* Contributors: Kei Okada, lsouchet
+
 0.5.1 (2015-07-31)
 ------------------
 * generate changelog
