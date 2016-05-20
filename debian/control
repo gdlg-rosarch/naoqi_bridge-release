@@ -1,0 +1,12 @@
+Source: ros-kinetic-naoqi-bridge
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/nao
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-naoqi-bridge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-naoqi-apps, ros-kinetic-naoqi-bridge-msgs, ros-kinetic-naoqi-driver, ros-kinetic-naoqi-driver-py, ros-kinetic-naoqi-pose, ros-kinetic-naoqi-sensors-py, ros-kinetic-naoqi-tools
+Description: Meta package to interface ROS with Aldebaran's NAOqi.
