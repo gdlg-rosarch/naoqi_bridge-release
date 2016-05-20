@@ -1,0 +1,98 @@
+ros-kinetic-naoqi-apps (0.5.4-0jessie) jessie; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Fri, 20 May 2016 04:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.5.3-0jessie) jessie; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 26 Aug 2015 04:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.5.2-0jessie) jessie; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Tue, 11 Aug 2015 04:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.5.1-0jessie) jessie; urgency=high
+
+  * generate changelog
+  * generate changelog
+  * cleanup meta package.xml
+  * Contributors: Karsten Knese
+  * generate changelog
+  * cleanup meta package.xml
+  * Contributors: Karsten Knese
+  * cleanup meta package.xml
+  * Contributors: Karsten Knese
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Fri, 31 Jul 2015 04:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.5.0-0jessie) jessie; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 30 Jul 2015 04:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.4.8-0jessie) jessie; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 25 Jun 2015 04:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.4.7-0jessie) jessie; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Mon, 30 Mar 2015 04:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.4.6-0jessie) jessie; urgency=high
+
+  * update wiki ros links
+  * update repo links in package.xml
+  * Contributors: Mikael Arguedas
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Fri, 27 Feb 2015 05:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.4.5-0jessie) jessie; urgency=high
+
+  * add naoqi_apps
+  * Contributors: Vincent Rabaud
+  * add naoqi_apps
+  * Contributors: Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 11 Feb 2015 05:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.4.4-0jessie) jessie; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Fri, 16 Jan 2015 05:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.4.3-0jessie) jessie; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Sun, 14 Dec 2014 05:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.4.2-0jessie) jessie; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 26 Nov 2014 05:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.4.1-0jessie) jessie; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 13 Nov 2014 05:00:00 -0000
+
+ros-kinetic-naoqi-apps (0.4.0-0jessie) jessie; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 06 Nov 2014 05:00:00 -0000
+
+
