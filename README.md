@@ -1,3 +1,32 @@
+## naoqi_bridge (kinetic) - 0.5.5-0
+
+The packages in the `naoqi_bridge` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release naoqi_bridge -t kinetic -r kinetic` on `Tue, 20 Sep 2016 02:32:42 -0000`
+
+These packages were released:
+- `naoqi_apps`
+- `naoqi_bridge`
+- `naoqi_driver_py`
+- `naoqi_pose`
+- `naoqi_sensors_py`
+- `naoqi_tools`
+
+Version of package(s) in repository `naoqi_bridge`:
+
+- upstream repository: https://github.com/ros-naoqi/naoqi_bridge.git
+- release repository: https://github.com/ros-naoqi/naoqi_bridge-release.git
+- rosdistro version: `0.5.4-0`
+- old version: `0.5.4-0`
+- new version: `0.5.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.22`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.39`
+
+
 ## naoqi_bridge (jade) - 0.5.5-0
 
 The packages in the `naoqi_bridge` repository were released into the `jade` distro by running `/usr/bin/bloom-release naoqi_bridge -t jade -r jade` on `Tue, 20 Sep 2016 02:29:09 -0000`
