@@ -2,6 +2,14 @@
 Changelog for package naoqi_apps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.5 (2016-09-19)
+------------------
+* set Surya as the maintainer
+* Contributors: Vincent Rabaud
+
+0.5.4 (2016-05-20)
+------------------
+
 0.5.3 (2015-08-26)
 ------------------
 
