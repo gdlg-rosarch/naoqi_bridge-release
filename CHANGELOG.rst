@@ -2,6 +2,17 @@
 Changelog for package naoqi_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.5 (2016-09-19)
+------------------
+* cleanup, approching pep8 pep257 compliance (`#56 <https://github.com/ros-naoqi/naoqi_bridge/issues/56>`_)
+  * cleanup, approching pep8 pep257 compliance
+  * fix typo
+  * include Transmission and Gazebo for all robots
+* Contributors: Mikael Arguedas
+
+0.5.4 (2016-05-20)
+------------------
+
 0.5.3 (2015-08-26)
 ------------------
 * add add_dummy_collision function for gazebo simulation
